@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/akshata-resume",
+            "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -54,7 +54,7 @@
               "namedChunks": true
             }
           },
-          "defaultConfiguration": "production"
+          "defaultConfiguration": "development"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -94,5 +94,9 @@
         }
       }
     }
+  },
+  "defaultProject": "akshata-resume",
+  "cli": {
+    "analytics": "161dd198-1dff-4570-af84-e4dbbc1883bc"
   }
 }
